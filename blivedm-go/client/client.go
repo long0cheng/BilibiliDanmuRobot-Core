@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/xbclub/BilibiliDanmuRobot-Core/blivedm-go/api"
-	"github.com/xbclub/BilibiliDanmuRobot-Core/blivedm-go/packet"
+	"github.com/long0cheng/BilibiliDanmuRobot-Core/blivedm-go/api"
+	"github.com/long0cheng/BilibiliDanmuRobot-Core/blivedm-go/packet"
 )
 
 type Client struct {

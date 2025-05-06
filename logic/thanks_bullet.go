@@ -3,11 +3,11 @@ package logic
 import (
 	"context"
 	"fmt"
+	"github.com/long0cheng/BilibiliDanmuRobot-Core/entity"
+	"github.com/long0cheng/BilibiliDanmuRobot-Core/svc"
 	"math"
 	"strconv"
 	"strings"
-	"github.com/xbclub/BilibiliDanmuRobot-Core/entity"
-	"github.com/xbclub/BilibiliDanmuRobot-Core/svc"
 	"sync"
 	"time"
 )

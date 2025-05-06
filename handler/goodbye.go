@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"github.com/xbclub/BilibiliDanmuRobot-Core/logic"
+	"github.com/long0cheng/BilibiliDanmuRobot-Core/logic"
 )
 
 // 下播输出

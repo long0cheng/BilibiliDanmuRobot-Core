@@ -2,9 +2,9 @@ package logic
 
 import (
 	"context"
-	"github.com/xbclub/BilibiliDanmuRobot-Core/entity"
-	"github.com/xbclub/BilibiliDanmuRobot-Core/http"
-	"github.com/xbclub/BilibiliDanmuRobot-Core/svc"
+	"github.com/long0cheng/BilibiliDanmuRobot-Core/entity"
+	"github.com/long0cheng/BilibiliDanmuRobot-Core/http"
+	"github.com/long0cheng/BilibiliDanmuRobot-Core/svc"
 	"github.com/zeromicro/go-zero/core/logx"
 	"time"
 )

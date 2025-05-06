@@ -1,4 +1,4 @@
-module github.com/xbclub/BilibiliDanmuRobot-Core
+module github.com/long0cheng/BilibiliDanmuRobot-Core
 
 go 1.23.0
 

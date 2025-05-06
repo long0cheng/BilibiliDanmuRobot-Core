@@ -2,9 +2,9 @@ package client
 
 import (
 	"fmt"
-	"github.com/xbclub/BilibiliDanmuRobot-Core/blivedm-go/message"
-	"github.com/xbclub/BilibiliDanmuRobot-Core/blivedm-go/packet"
-	"github.com/xbclub/BilibiliDanmuRobot-Core/blivedm-go/utils"
+	"github.com/long0cheng/BilibiliDanmuRobot-Core/blivedm-go/message"
+	"github.com/long0cheng/BilibiliDanmuRobot-Core/blivedm-go/packet"
+	"github.com/long0cheng/BilibiliDanmuRobot-Core/blivedm-go/utils"
 	log "github.com/zeromicro/go-zero/core/logx"
 	"regexp"
 	"runtime/debug"
