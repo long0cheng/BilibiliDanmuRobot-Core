@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/xbclub/BilibiliDanmuRobot-Core/entity"
-	"github.com/xbclub/BilibiliDanmuRobot-Core/logic"
+	"github.com/long0cheng/BilibiliDanmuRobot-Core/entity"
+	"github.com/long0cheng/BilibiliDanmuRobot-Core/logic"
 	"github.com/zeromicro/go-zero/core/logx"
 )
 
@@ -40,7 +40,6 @@ func (w *wsHandler) redPocket() {
 			logic.PushToBulletSender("识别到红包，欢迎弹幕已临时关闭")
 		}
 	})
-
 
 	w.client.RegisterCustomEventHandler("POPULARITY_RED_POCKET_WINNER_LIST", func(s string) {
 		locked.Lock()

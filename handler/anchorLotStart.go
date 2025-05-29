@@ -1,6 +1,6 @@
 package handler
 
-import "github.com/xbclub/BilibiliDanmuRobot-Core/logic"
+import "github.com/long0cheng/BilibiliDanmuRobot-Core/logic"
 
 // 天选
 func (w *wsHandler) anchorLot() {
@@ -11,7 +11,8 @@ func (w *wsHandler) anchorLot() {
 			w.svc.Config.EntryEffect = false
 			w.svc.Config.WelcomeHighWealthy = false
 		}
-		logic.PushToBulletSender("识别到天选，欢迎弹幕已临时关闭")	})
+		logic.PushToBulletSender("识别到天选，欢迎弹幕已临时关闭")
+	})
 	// 天选中奖
 	w.client.RegisterCustomEventHandler("ANCHOR_LOT_AWARD", func(s string) {
 		if w.svc.Config.InteractWord != w.svc.Autointerract.InteractWord {

@@ -3,9 +3,9 @@ package handler
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/xbclub/BilibiliDanmuRobot-Core/entity"
-	"github.com/xbclub/BilibiliDanmuRobot-Core/logic"
-	"github.com/xbclub/BilibiliDanmuRobot-Core/svc"
+	"github.com/long0cheng/BilibiliDanmuRobot-Core/entity"
+	"github.com/long0cheng/BilibiliDanmuRobot-Core/logic"
+	"github.com/long0cheng/BilibiliDanmuRobot-Core/svc"
 	"github.com/zeromicro/go-zero/core/logx"
 	"math/rand"
 	"sort"

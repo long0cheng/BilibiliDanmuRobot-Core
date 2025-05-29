@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/xbclub/BilibiliDanmuRobot-Core/entity"
-	"github.com/xbclub/BilibiliDanmuRobot-Core/logic"
-	"github.com/xbclub/BilibiliDanmuRobot-Core/logic/danmu"
+	"github.com/long0cheng/BilibiliDanmuRobot-Core/entity"
+	"github.com/long0cheng/BilibiliDanmuRobot-Core/logic"
+	"github.com/long0cheng/BilibiliDanmuRobot-Core/logic/danmu"
 )
 
 // 礼物感谢
